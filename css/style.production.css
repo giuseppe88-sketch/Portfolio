@@ -117,7 +117,7 @@
       margin: 0 auto;
       width: 50%;
       padding-bottom: 220px;
-       padding-top: 175px;  
+       padding-top: 180px;  
    }
    
    
@@ -125,6 +125,7 @@
        float: left;
        width: 450px;
        margin-right: 40px;
+       
       
        
        
@@ -375,4 +376,4 @@
      .cloud-back {
        -webkit-animation: 34s cloud-move-reverse infinite alternate linear;
                animation: 34s cloud-move-reverse infinite alternate linear;
-     }
+     } 
