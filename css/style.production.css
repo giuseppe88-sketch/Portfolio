@@ -217,7 +217,9 @@
            -ms-grid-columns: 1fr;
            grid-template-columns: 1fr;
        }
-       
+       .profile-image{
+           width: 100%;
+       }
    
    }
    @media all and (min-width:500px) and (max-width:750px){
@@ -228,7 +230,9 @@
        .berlin-illustration{
            width: 100%;
        }
-       
+       .profile-image{
+           width: 100%;
+       }
    }
    @media all and (max-width:750px){
        .grid{
@@ -241,6 +245,26 @@
        h1{
            font-size:22px
        }
+       .content{
+           padding-top: 100px;
+       }
+       .profile-image{
+           width: 100%;
+           margin-top: 0px;
+           margin-bottom: 30px;
+       }
+       .page-header h1{
+           font-size: 22px;
+       }
+      .navigation-list{
+          display: block;
+          margin-top: 0px;
+      }
+      .navigation-list_item,.navigation-list_item--active{
+          font-size: 15px;
+          
+      }
+       
    }
    /*---------------------contact Page-----------------------*/
    .content-contact{
