@@ -217,6 +217,9 @@
            -ms-grid-columns: 1fr;
            grid-template-columns: 1fr;
        }
+       .berlin-illustration{
+           width: 100%;
+       }
        .profile-image{
            width: 100%;
        }
@@ -248,23 +251,32 @@
        .content{
            padding-top: 100px;
        }
+       .content h2 {
+           text-align: center;
+       }   
        .profile-image{
            width: 100%;
            margin-top: 0px;
            margin-bottom: 30px;
        }
+       .page-header{
+           height: 130px;
+       }
        .page-header h1{
            font-size: 22px;
        }
-      .navigation-list{
-          display: block;
-          margin-top: 0px;
-      }
-      .navigation-list_item,.navigation-list_item--active{
-          font-size: 15px;
-          
-      }
-       
+       .navigation-list{
+           display: -ms-grid;
+           display: grid;
+           -ms-grid-rows: auto;
+           grid-template-rows: auto;
+           grid-gap:1px;
+           margin-top: 0px;
+       }
+       .navigation-list_item,.navigation-list_item--active{
+           font-size: 15px;
+           padding-top: 0px;
+        }
    }
    /*---------------------contact Page-----------------------*/
    .content-contact{
