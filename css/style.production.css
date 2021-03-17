@@ -223,6 +223,24 @@
        .profile-image{
            width: 100%;
        }
+       .page-header{
+        height: 130px;
+    }
+    .page-header h1{
+        font-size: 22px;
+    }
+    .navigation-list{
+        display: -ms-grid;
+        display: grid;
+        -ms-grid-rows: auto;
+        grid-template-rows: auto;
+        grid-gap:1px;
+        margin-top: 0px;
+    }
+    .navigation-list_item,.navigation-list_item--active{
+        font-size: 15px;
+        padding-top: 0px;
+     }
    
    }
    @media all and (min-width:500px) and (max-width:750px){
@@ -236,6 +254,24 @@
        .profile-image{
            width: 100%;
        }
+       .page-header{
+        height: 130px;
+    }
+    .page-header h1{
+        font-size: 32px;
+    }
+       .navigation-list{
+        display: -ms-grid;
+        display: grid;
+        -ms-grid-rows: auto;
+        grid-template-rows: auto;
+        grid-gap:1px;
+        margin-top: 0px;
+    }
+    .navigation-list_item,.navigation-list_item--active{
+        font-size: 15px;
+        padding-top: 0px;
+     }
    }
    @media all and (max-width:750px){
        .grid{
@@ -259,7 +295,7 @@
            margin-top: 0px;
            margin-bottom: 30px;
        }
-       .page-header{
+     /*  .page-header{
            height: 130px;
        }
        .page-header h1{
@@ -276,7 +312,7 @@
        .navigation-list_item,.navigation-list_item--active{
            font-size: 15px;
            padding-top: 0px;
-        }
+        }*/
    }
    /*---------------------contact Page-----------------------*/
    .content-contact{
