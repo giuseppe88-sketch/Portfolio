@@ -38,24 +38,22 @@
        -webkit-box-shadow: 4px 3px 19px 0px rgba(0,0,0,0.3);
                box-shadow: 4px 3px 19px 0px rgba(0,0,0,0.3);
        border-radius: 10px;
+       transition-duration: 00.2s;
+       transition-property: opacity;
    }
    .page-header_item{
        width:70px;
        -webkit-box-flex: 0;
            -ms-flex: 0 1 200px;
                flex: 0 1 200px;
-       -webkit-transition-duration: 0.2s;
-            -o-transition-duration: 0.2s;
-               transition-duration: 0.2s;
-       -webkit-transition-property:opacity ;
-       -o-transition-property:opacity ;
-       transition-property:opacity ;
    
    }
-   .page-header_item:hover,.page-header_item:focus{
+   .page-header img:hover, .page-header img:focus{
        cursor: pointer;
        opacity: 0.6;
    }
+
+   
    .page-header_item:last-child{
        -webkit-box-flex: 1;
            -ms-flex-positive: 1;
@@ -86,7 +84,21 @@
    }
    .navigation-list{
        list-style-type: none;
+       -webkit-transition-duration: 00.2s;
+            -o-transition-duration: 00.2s;
+               transition-duration: 00.2s;
+          -webkit-transition-property: opacity;
+          -o-transition-property: opacity;
+          transition-property: opacity;
    }
+   .navigation-list_item:hover, .navigation-list_item:focus{
+       cursor: pointer;
+       opacity: 0.6;
+      }
+   .navigation-list_item--active:hover, .navigation-list_item--active:focus{
+       cursor: pointer;
+       opacity: 0.6;
+      }
    .navigation-list li{
        display: inline-block;
        margin-left: 15px;
@@ -224,24 +236,23 @@
            width: 100%;
        }
        .page-header{
-        height: 130px;
-    }
-    .page-header h1{
-        font-size: 22px;
-    }
-    .navigation-list{
-        display: -ms-grid;
-        display: grid;
-        -ms-grid-rows: auto;
-        grid-template-rows: auto;
-        grid-gap:1px;
-        margin-top: 0px;
-    }
-    .navigation-list_item,.navigation-list_item--active{
-        font-size: 15px;
-        padding-top: 0px;
-     }
-   
+           height: 130px;
+       }
+       .page-header h1{
+           font-size: 22px;
+       }
+       .navigation-list{
+           display: -ms-grid;
+           display: grid;
+           -ms-grid-rows: auto;
+           grid-template-rows: auto;
+           grid-gap:1px;
+           margin-top: 0px;
+       }
+       .navigation-list_item,.navigation-list_item--active{
+           font-size: 15px;
+           padding-top: 0px;
+        }
    }
    @media all and (min-width:500px) and (max-width:750px){
        .grid{
@@ -255,23 +266,23 @@
            width: 100%;
        }
        .page-header{
-        height: 130px;
-    }
-    .page-header h1{
-        font-size: 32px;
-    }
-       .navigation-list{
-        display: -ms-grid;
-        display: grid;
-        -ms-grid-rows: auto;
-        grid-template-rows: auto;
-        grid-gap:1px;
-        margin-top: 0px;
-    }
-    .navigation-list_item,.navigation-list_item--active{
-        font-size: 15px;
-        padding-top: 0px;
-     }
+           height: 130px;
+       }
+       .page-header h1{
+           font-size: 32px;
+       }
+          .navigation-list{
+           display: -ms-grid;
+           display: grid;
+           -ms-grid-rows: auto;
+           grid-template-rows: auto;
+           grid-gap:1px;
+           margin-top: 0px;
+       }
+       .navigation-list_item,.navigation-list_item--active{
+           font-size: 15px;
+           padding-top: 0px;
+        }
    }
    @media all and (max-width:750px){
        .grid{
@@ -295,24 +306,7 @@
            margin-top: 0px;
            margin-bottom: 30px;
        }
-     /*  .page-header{
-           height: 130px;
-       }
-       .page-header h1{
-           font-size: 22px;
-       }
-       .navigation-list{
-           display: -ms-grid;
-           display: grid;
-           -ms-grid-rows: auto;
-           grid-template-rows: auto;
-           grid-gap:1px;
-           margin-top: 0px;
-       }
-       .navigation-list_item,.navigation-list_item--active{
-           font-size: 15px;
-           padding-top: 0px;
-        }*/
+      
    }
    /*---------------------contact Page-----------------------*/
    .content-contact{
