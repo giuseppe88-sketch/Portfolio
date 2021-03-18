@@ -225,6 +225,7 @@
    
    /*--------------------------Media Queries----------------------------*/
    @media all and (max-width:500px){
+       
        .grid{
            -ms-grid-columns: 1fr;
            grid-template-columns: 1fr;
@@ -238,6 +239,7 @@
        .page-header{
            height: 130px;
        }
+       
        .page-header h1{
            font-size: 22px;
        }
