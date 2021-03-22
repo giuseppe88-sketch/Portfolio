@@ -318,6 +318,8 @@
        h1{
            font-size:22px;
            text-align: center;
+           margin: 0 auto;
+           
            
        }
        
@@ -339,6 +341,7 @@
       .content button{
           margin-left: 10px;
       }
+    
    }
    /*---------------------contact Page-----------------------*/
    .content-contact{
