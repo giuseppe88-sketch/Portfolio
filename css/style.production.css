@@ -242,6 +242,7 @@
        }
        .page-header{
            height: 130px;
+           margin-right: auto;
        }
      
        .page-header h1{
@@ -281,6 +282,7 @@
        }
        .page-header{
            height: 130px;
+           margin-right: auto;
        }
        .page-header h1{
            padding-top: 0px;
@@ -342,6 +344,10 @@
       .content button{
           margin-left: 10px;
       }
+      .page-header{
+        height: 130px;
+        margin-right: auto;
+    }
     
    }
    /*---------------------contact Page-----------------------*/
