@@ -67,12 +67,12 @@
    .page-header h1{
        padding-left: 15px;
        position: relative;
-       margin-top: auto;
-       font-family: 'Slabo 13px', serif;
+       margin-top: 3px;
+       font-family:"slab0 13px" serif;
        text-align: center;
        font-size: 40px;
        padding-top: 5px;
-       margin-left: 15px;
+       margin-left: 25px;
        
    }
    
