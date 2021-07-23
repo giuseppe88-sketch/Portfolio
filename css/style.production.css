@@ -83,6 +83,9 @@
    .navigation-list_item{
     font-size:20px;
    }
+   .navbar-nav{
+       font-size:20px;
+   }
    .navigation-list_item--active{
     font-size:20px;
    }
@@ -195,10 +198,18 @@
    /*---------------------------Work Page-------------------------*/
    
    section h1{
+       font-family: 'Montserrat', sans-serif;
        text-align: center;
        font-size: 40px;
+       margin-top: 23px;
    }
-   
+   .navbar{
+    background: -o-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(240,240,240,0.8071603641456583) 47%, rgba(190,187,187,0.5718662464985995) 100%);
+    background: -webkit-gradient(linear, left top, right top, from(rgba(255,255,255,1)), color-stop(47%, rgba(240,240,240,0.8071603641456583)), to(rgba(190,187,187,0.5718662464985995))); 
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(240,240,240,0.8071603641456583) 47%, rgba(190,187,187,0.5718662464985995) 100%);
+    box-shadow: 4px 3px 19px 0px rgba(0,0,0,0.3);
+    border-radius: 10px;
+   }
    .grid{
      display: -ms-grid;
      display: grid;
@@ -218,6 +229,19 @@
        -o-transition-property: opacity;
        transition-property: opacity;
    }
+   .grid__item h2{
+     font-family: 'Montserrat', sans-serif;
+       margin-top: 7px;
+       margin-bottom: 25px;
+       font-size: 26px;
+       font-weight:bolder
+   }
+   .grid__item img{
+       margin-bottom: 10px;
+   }
+  .grid__item a{
+      color:rgba(61, 52, 52, 0.74);
+  }
    .grid__item:hover, .grid__item:focus{
        cursor: pointer;
        opacity: 0.8;
@@ -226,10 +250,12 @@
    .grid p{
      font-family: serif;
    }
+   footer p{
+       margin-top: 20px;
+   }
    
    /*--------------------------Media Queries----------------------------*/
    @media all and (max-width:500px){
-       
        .grid{
            -ms-grid-columns: 1fr;
            grid-template-columns: 1fr;
@@ -311,6 +337,7 @@
         }
    }
    @media all and (max-width:750px){
+       
        .grid{
            grid-gap:10px;
        }
