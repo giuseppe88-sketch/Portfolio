@@ -378,6 +378,9 @@
    .content-contact a{
        color: rgba(48, 47, 47, 0.733);
    }
+   .content-description a{
+       color: rgb(71, 70, 70);
+   }
 
    /*-------------------------About page and Keyframes animation--------------------*/
    .content-about{
