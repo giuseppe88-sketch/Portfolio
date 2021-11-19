@@ -252,6 +252,32 @@
    footer p{
        margin-top: 20px;
    }
+   /*------------------------caseStudy---------------------------------*/
+   .case-study{
+       position: relative;
+       margin: 0 auto;
+       width:60%;
+       margin-top: 40px;
+       font-family: 'Montserrat', sans-serif;
+   }
+   .case-study h2{
+       text-align: center;
+       margin-top: 40px;
+       margin-bottom: 20px;
+
+   }
+   #angular-ss, #database{
+       margin-left: 120px;
+       margin-bottom:40px
+   }
+   .process{
+       margin-bottom: 40px;
+   }
+   .process li{
+       font-style: italic;
+       margin-top:20px;
+   }
+
    
    /*--------------------------Media Queries----------------------------*/
    @media all and (max-width:500px){
